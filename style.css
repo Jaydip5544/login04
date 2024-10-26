@@ -547,8 +547,8 @@ color: #9b3046;
 }
 .footer-link li{
   float: left;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin-right: 6px;
+  margin-left: 6px;
   color: #999;
 }
 .footer-link a{ 
@@ -559,7 +559,7 @@ color: #9b3046;
 }
 .form-control {
     display: block;
-    width: 60px;
+    width: 74px;
     height: calc(1em + .75rem + 0px);
     padding: 0.250rem .25rem;
     font-size: 0.8rem;
