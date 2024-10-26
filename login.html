@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Flaticon Cdn -->
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</head>
+<body>
+	<div class="infinity-container">
+		<img class="logo" src="logo.jpg">
+		<form class="language" id="demo-form" data-parsley-validate="">
+                          <p class="field--wrapper">         
+                            <select id="select-country" name="select-country" class="demo-default form-control" required placeholder="Confirm your country" data-parsley-errors-container="#errors">
+                              <option value="ar">العَرَبِية</option>
+                              <option value="bn-BD">বাংলা(বাংলাদেশ)</option>
+                              <option value="bn-IN">বাংলা (ভারত)</option>
+                              <option value="da-DK">Dansk</option>
+                              <option value="de-DE">Deutsch</option>
+                              <option value="el-GR">Ελληνικά</option>
+                              <option value="en-GB">English (UK)</option>
+                              <option value="en-US" selected="">English (US)</option>
+                              <option value="es">Español</option>
+                              <option value="es-AR">Español (Argentine)</option>
+                              <option value="es-ES">Español (España)</option>
+                              <option value="es-MX">Español (México)</option>
+                              <option value="fi-FI">Suomi</option>
+                              <option value="fil-PH">Filipino</option>
+                              <option value="fr-FR">Français</option>
+                              <option value="gu-IN">ગુજરાતી</option>
+                              <option value="hi-IN">हिंदी</option>
+                              <option value="id-ID">Bahasa Indonesia</option>
+                              <option value="it-IT">Italiano</option>
+                              <option value="ja-JP">日本語</option>
+                              <option value="kn-IN">ಕನ್ನಡ (India)</option>
+                              <option value="ko-KR">한국어</option>
+                              <option value="ml-IN">മലയാളം</option>
+                              <option value="mr-IN">मराठी</option>
+                              <option value="ms-MY">Bahasa Melayu</option>
+                              <option value="nb-NO">Norsk</option>
+                              <option value="nl-NL">Nederlands</option>
+                              <option value="pa">ਪੰਜਾਬੀ</option>
+                              <option value="pl-PL">Polski</option>
+                              <option value="pt-BR">Português (Brasil)</option>
+                              <option value="pt-PT">Português (Portugal)</option>
+                              <option value="ro-RO">Română</option>
+                              <option value="ru-RU">Русский</option>
+                              <option value="sv-SE">Svenska</option>
+                              <option value="ta-IN">தமிழ்</option>
+                              <option value="te-IN">తెలుగు</option>
+                              <option value="th-TH">ภาษาไทย (ประเทศไทย)</option>
+                              <option value="tr-TR">Türkçe</option>
+                              <option value="ur-PK">اردو</option>
+                               <option value="zh-Hant">中文（繁體）</option>
+                             <option value="vi-VN">Tiếng Việt</option>
+                              <option value="zh-Hans">中文（简体）</option>
+                            </select>
+                            <div id="errors"></div>
+                           </p>
+      </form>
+
+		<div class="row">
+			<div class="col-md-1 infinity-left-space"></div>
+			
+			<!-- FORM BEGIN -->
+			<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-center infinity-form">
+				<!-- Company Logo -->
+				<div class="text-center mb-3 mt-5">
+					<h2>POLZET</h2>
+					<!-- <img src="logo.png" width="150px"> -->
+				</div>
+				<div class="text-center mb-4">
+					<h5 class="subtital">Sign in to explore the world of POLLS</h5>
+				</div>
+				<!-- Form -->
+				<form class="px-3">
+					<!-- Input Box -->
+					<div class="form-input">
+						<span><i class="icon fi fi fi-rr-at"></i></span>
+						<input type="email" name="" placeholder="Email & Contact" tabindex="10"required>
+					</div>
+					<div class="form-input password-wrapper">
+						<span><i class="icon fi fi-rr-lock"></i></span>
+						<input type="password" id="password-field" name="" placeholder="Password" required>
+						<div class="toggle-button">
+		               
+		                     <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon"  version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M23.271 9.419A15.866 15.866 0 0 0 19.9 5.51l2.8-2.8a1 1 0 0 0-1.414-1.414l-3.045 3.049A12.054 12.054 0 0 0 12 2.655c-6.191 0-9.719 4.238-11.271 6.764a4.908 4.908 0 0 0 0 5.162A15.866 15.866 0 0 0 4.1 18.49l-2.8 2.8a1 1 0 1 0 1.414 1.414l3.052-3.052A12.054 12.054 0 0 0 12 21.345c6.191 0 9.719-4.238 11.271-6.764a4.908 4.908 0 0 0 0-5.162ZM2.433 13.534a2.918 2.918 0 0 1 0-3.068C3.767 8.3 6.782 4.655 12 4.655a10.1 10.1 0 0 1 4.766 1.165l-2.013 2.013a4.992 4.992 0 0 0-6.92 6.92l-2.31 2.31a13.723 13.723 0 0 1-3.09-3.529ZM15 12a3 3 0 0 1-3 3 2.951 2.951 0 0 1-1.285-.3l3.985-3.985A2.951 2.951 0 0 1 15 12Zm-6 0a3 3 0 0 1 3-3 2.951 2.951 0 0 1 1.285.3L9.3 13.285A2.951 2.951 0 0 1 9 12Zm12.567 1.534C20.233 15.7 17.218 19.345 12 19.345a10.1 10.1 0 0 1-4.766-1.165l2.013-2.013a4.992 4.992 0 0 0 6.92-6.92l2.31-2.31a13.723 13.723 0 0 1 3.09 3.529 2.918 2.918 0 0 1 0 3.068Z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path></g></svg>
+		                  </div>
+					</div>
+
+
+
+					<div class="row mb-3">
+						<!-- Remember Box -->
+						    
+			            <div class="col-auto d-flex align-items-center">
+			                <div class="custom-control custom-checkbox">
+			                    <input type="checkbox" class="custom-control-input" id="cb1">
+			                   	<label class="custom-control-label" for="cb1">Remember me<a href="#!" class=" text-decoration-none terms-condi-text"></a></label>
+			                </div>
+				          </div>
+
+				          <div class="col-auto text-right forget-pass-col">
+		                   <a href="Forgot-password.html" class="forget-link">Forgot password?</a>
+		                </div>
+				       
+			   	    </div>
+			   	    <!-- Login Button -->
+		            <div class="mb-3"> 
+					
+						<a class="btn btn-block Login-btn" href="">Login</a>
+					</div>
+					
+					<!-- <div class="text-center mb-2">
+	                   	<div class="text-center mb-3" style="color: #777;">or login with</div>
+		           
+	                   	<a href="" class="btn btn-social btn-facebook">
+	                   		<i class="fi fi-brands-facebook"></i>
+	                   	</a>
+      
+						<a href="" class="btn btn-social btn-google">
+							<i class="fi fi-brands-google"></i>
+						</a>
+					
+						<a href="" class="btn btn-social btn-twitter">
+							<i class="fi fi-brands-twitter-alt-circle"></i>
+						</a>
+					</div> -->
+
+					<div class="text-center mb-5" style="color: #777;">Don't have an account? 
+						<a class="register-link" href="Email-Verify.html">Sign Up</a>
+			       	</div>
+				</form>
+			</div>
+			<!-- FORM END -->
+	
+			<div class="col-md-1 infinity-right-space"></div>
+		</div>
+	</div>
+
+	  <footer class="footer ">
+			<div class=" text-center d-flex align-self-end justify-content-center">
+               <div class="information">                
+                  <ul class="list-unstyled footer-link mt-1">
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class=" text-decoration-none fw-semibold">Polzel</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class=" text-decoration-none fw-semibold">Terms of Service</a></li>
+                        <li class="mb-1"><a href="https://codepen.io/Gaurav-Rana-the-reactor" class=" text-decoration-none fw-semibold">Terms and condition</a></li>
+                        <li class=""><a href="https://codepen.io/Gaurav-Rana-the-reactor" class=" text-decoration-none fw-semibold">Contact Us</a></li>
+					   </ul>
+					</div>
+			</div>
+  </footer>
+
+
+	<script >
+		const eyeIcons = {
+   open: ' <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon"  version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M23.271 9.419A15.866 15.866 0 0 0 19.9 5.51l2.8-2.8a1 1 0 0 0-1.414-1.414l-3.045 3.049A12.054 12.054 0 0 0 12 2.655c-6.191 0-9.719 4.238-11.271 6.764a4.908 4.908 0 0 0 0 5.162A15.866 15.866 0 0 0 4.1 18.49l-2.8 2.8a1 1 0 1 0 1.414 1.414l3.052-3.052A12.054 12.054 0 0 0 12 21.345c6.191 0 9.719-4.238 11.271-6.764a4.908 4.908 0 0 0 0-5.162ZM2.433 13.534a2.918 2.918 0 0 1 0-3.068C3.767 8.3 6.782 4.655 12 4.655a10.1 10.1 0 0 1 4.766 1.165l-2.013 2.013a4.992 4.992 0 0 0-6.92 6.92l-2.31 2.31a13.723 13.723 0 0 1-3.09-3.529ZM15 12a3 3 0 0 1-3 3 2.951 2.951 0 0 1-1.285-.3l3.985-3.985A2.951 2.951 0 0 1 15 12Zm-6 0a3 3 0 0 1 3-3 2.951 2.951 0 0 1 1.285.3L9.3 13.285A2.951 2.951 0 0 1 9 12Zm12.567 1.534C20.233 15.7 17.218 19.345 12 19.345a10.1 10.1 0 0 1-4.766-1.165l2.013-2.013a4.992 4.992 0 0 0 6.92-6.92l2.31-2.31a13.723 13.723 0 0 1 3.09 3.529 2.918 2.918 0 0 1 0 3.068Z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path></g></svg>',
+   closed: ' <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve" class=""><g><path d="M23.271 9.419C21.72 6.893 18.192 2.655 12 2.655S2.28 6.893.729 9.419a4.908 4.908 0 0 0 0 5.162C2.28 17.107 5.808 21.345 12 21.345s9.72-4.238 11.271-6.764a4.908 4.908 0 0 0 0-5.162Zm-1.705 4.115C20.234 15.7 17.219 19.345 12 19.345S3.766 15.7 2.434 13.534a2.918 2.918 0 0 1 0-3.068C3.766 8.3 6.781 4.655 12 4.655s8.234 3.641 9.566 5.811a2.918 2.918 0 0 1 0 3.068Z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path><path d="M12 7a5 5 0 1 0 5 5 5.006 5.006 0 0 0-5-5Zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3Z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path></g></svg>'
+};
+
+function addListeners() {
+   const toggleButton = document.querySelector(".toggle-button");
+   
+   if (!toggleButton) {
+      return;
+   }
+   
+   toggleButton.addEventListener("click", togglePassword);
+}
+
+function togglePassword() {
+   const passwordField = document.querySelector("#password-field");
+   const toggleButton = document.querySelector(".toggle-button");
+   
+   if (!passwordField || !toggleButton) {
+      return;
+   }
+   
+   toggleButton.classList.toggle("open");
+   
+   const isEyeOpen = toggleButton.classList.contains("open");
+
+   toggleButton.innerHTML = isEyeOpen ? eyeIcons.closed : eyeIcons.open;
+   passwordField.type = isEyeOpen ? "text" : "password";
+}
+
+document.addEventListener("DOMContentLoaded", addListeners);
+
+	</script>
+
+</body>
+</html>
